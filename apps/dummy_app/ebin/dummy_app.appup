@@ -1,3 +1,14 @@
+{"3", 
+    %% Upgrade instructions
+    [{"2", [
+        {update,dummy_app_server,{advanced,[from2to3]}}
+    ]}], 
+    %% Downgrade instructions
+    [{"2",[
+        {update,dummy_app_server,{advanced,[from3to2]}}
+    ]}]
+}.
+
 {"2",
     %% Upgrade instructions from 1 to 2
     [{"1", [
